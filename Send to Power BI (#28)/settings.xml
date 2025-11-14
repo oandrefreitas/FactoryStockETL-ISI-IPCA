@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="workspace" type="xstring" value=""/>
+        <entry key="dataset_name" type="xstring" value="Stock"/>
+        <config key="table_name">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Stock"/>
+        </config>
+        <entry key="dataset_name_dialog" type="xstring" value=""/>
+        <config key="table_name_dialog">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value=""/>
+        </config>
+        <config key="relationship_fromtables">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="relationship_fromcolumns">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="relationship_totables">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="relationship_tocolumns">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="relationship_crossfilterbehaviors">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="create_new_dataset" type="xboolean" value="false"/>
+        <entry key="allow_overwrite" type="xboolean" value="false"/>
+        <entry key="append_rows" type="xboolean" value="true"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.powerbi.base.nodes.send2.SendToPowerBINodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Send to Power BI"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Power BI Integration"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.powerbi"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202402291657"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Power BI Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.powerbi.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.0.v202406110905"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="auth"/>
+        <config key="input"/>
+    </config>
+    <entry key="name" type="xstring" value="Send to Power BI"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="0da3dcf8-a041-45c4-af2c-db445e6a7408"/>
+    </config>
+</config>

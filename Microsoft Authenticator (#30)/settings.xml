@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="authenticationType" type="xstring" value="INTERACTIVE"/>
+        <entry key="tenantId" type="xstring" isnull="true" value=""/>
+        <config key="usernamePassword">
+            <entry key="isCredentials_Internals" type="xboolean" value="true"/>
+            <entry key="name" type="xstring" value=""/>
+            <entry key="login" type="xstring" value=""/>
+        </config>
+        <config key="confidentialApp">
+            <entry key="isCredentials_Internals" type="xboolean" value="true"/>
+            <entry key="name" type="xstring" value=""/>
+            <entry key="login" type="xstring" value=""/>
+        </config>
+        <config key="scopesSettings">
+            <entry key="scopesSelectionType" type="xstring" value="CUSTOM"/>
+            <config key="delegatedScopes">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="appScopes">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="customScopes">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="https://analysis.windows.net/powerbi/api/.default"/>
+            </config>
+            <entry key="azureStorageAccount" type="xstring" value=""/>
+        </config>
+        <entry key="authorizationEndpointSelection" type="xstring" value="DEFAULT"/>
+        <entry key="authorizationEndpointUrl" type="xstring" value=""/>
+        <entry key="userAgentSelection" type="xstring" value="DEFAULT"/>
+        <entry key="customUserAgent" type="xstring" value=""/>
+        <entry key="clientSelection" type="xstring" value="DEFAULT"/>
+        <entry key="clientId" type="xstring" isnull="true" value=""/>
+        <config key="sharedKey">
+            <entry key="isCredentials_Internals" type="xboolean" value="true"/>
+            <entry key="name" type="xstring" value=""/>
+            <entry key="login" type="xstring" value=""/>
+        </config>
+        <config key="sasUrl">
+            <entry key="isCredentials_Internals" type="xboolean" value="true"/>
+            <entry key="name" type="xstring" value=""/>
+            <entry key="login" type="xstring" value=""/>
+        </config>
+        <entry key="redirectUrl" type="xstring" isnull="true" value=""/>
+        <entry key="loginCredentialRef_Internals" type="xstring" value="4ac83382-422b-4d32-bc1e-b630939e3192"/>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.microsoft.authentication.node.MicrosoftAuthenticatorNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Microsoft Authenticator"/>
+    <entry key="node-bundle-name" type="xstring" value="Microsoft authentication extension for KNIME Workbench"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.microsoft.authentication"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202405271337"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Office 365 Connectors"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.office365.filehandling.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.0.v202405271337"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Microsoft Authenticator"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.credentials.base.CredentialPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.credentials.base.CredentialPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Credential (JWT)"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="9f6c344c-4552-45c9-bddd-3394c6b1dbb7"/>
+    </config>
+</config>
